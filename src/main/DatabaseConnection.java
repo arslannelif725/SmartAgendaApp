@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/ajanda_db?useSSL=false&serverTimezone=Turkey&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
-    private static final String PASSWORD = "1327ElfaRs*!";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() {
         Connection conn = null;
